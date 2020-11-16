@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Silka;
+}
+.logo {
+  padding-left: 0px;
+  text-align: left;
+}
+.header-item {
+  width: 33%;
+  text-align: center;
+  padding: 20px;
+}
+.head-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.head-links a {
+  color: black;
+  line-height: 19px;
+}
+.head-links a:hover {
+  text-decoration: none;
+}
+.login-btn {
+  color: blue;
+  padding: 10px;
+}
+.login-btn:hover {
+  text-decoration: none;
+  color:blue;
+}
+.dev-btn {
+  color: blue; 
+  border: 1px solid lightskyblue;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.dev-btn:hover {
+  text-decoration: none;
+  color:blue;
+}
