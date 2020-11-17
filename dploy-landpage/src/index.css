@@ -11,6 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+  padding: 0px;
+}
 .header {
   display: flex;
   justify-content: space-evenly;
@@ -19,6 +22,11 @@ code {
 .logo {
   padding-left: 0px;
   text-align: left;
+  
+}
+.d-ploy-logo-logotyp {
+  height: 44px;
+  width: 140px;
 }
 .header-item {
   width: 33%;
@@ -26,7 +34,7 @@ code {
   padding: 20px;
 }
 .head-links {
-  display: flex;
+  display: none;
   justify-content: space-evenly;
 }
 .head-links a {
@@ -37,6 +45,7 @@ code {
   text-decoration: none;
 }
 .login-btn {
+  display:none;
   color: blue;
   padding: 10px;
 }
@@ -45,6 +54,7 @@ code {
   color:blue;
 }
 .dev-btn {
+  display:none;
   color: blue; 
   border: 1px solid lightskyblue;
   padding: 10px;
@@ -54,4 +64,41 @@ code {
 .dev-btn:hover {
   text-decoration: none;
   color:blue;
+}
+.menu-btn {
+  display: inline-block;
+  color: blue; 
+  border: 1px solid lightskyblue;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.menu-btn:hover {
+  text-decoration: none;
+  color:blue;
+}
+.head {
+  background-image: url('images/Screenshot_1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  height: 200px;
+  background-color: red;
+}
+.discover-btn {
+  color: white;
+  background-color: blue;
+  font-size: 2.5rem;
+  border: none;
+  position: static;
+  bottom: 0;
+  right: 0;
+}
+@media only screen and (min-width: 600px) {
+  .head-links{display: flex;}
+  .login-btn{display: inline-block;}
+  .dev-btn{display: inline-block;}
+  .menu-btn{display: none;}
+  .head {height: 840px;}
 }
