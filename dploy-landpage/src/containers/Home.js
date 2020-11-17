@@ -11,6 +11,10 @@ export default class Home extends Component {
                   <Header class="header"/>
                 </Row>
                 <Head />
+                <br />
+                <br />
+                <br />
+
             </Container>
         )
     }
