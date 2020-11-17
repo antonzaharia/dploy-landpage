@@ -94,7 +94,9 @@ code {
   position: absolute;
   bottom: 0;
   padding: 2.5%;
-  right: 11%;
+  padding-left: 65px;
+  padding-right: 65px;
+  right: 8%;
 }
 
 
