@@ -1,10 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../images/logo.png'
 
 export default function Header() {
     return (
         <>
-            <div className="header-item"><p className="logo">d-ploy</p></div>
+            <div className="header-item logo"><img src={logo} alt="dploy-logo"/></div>
             <div  className="header-item head-links">
                 <Link to="/marketplace">Marketplace</Link>
                 <Link to="/pricing">Pricing</Link>

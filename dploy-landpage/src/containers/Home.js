@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Container, Row } from 'react-bootstrap'
 import Header from '../components/Header'
-import Head from './Head'
+import Trial from '../components/Trial'
+import Head from '../components/Head'
 
 export default class Home extends Component {
     render() {
@@ -11,9 +12,7 @@ export default class Home extends Component {
                   <Header class="header"/>
                 </Row>
                 <Head />
-                <br />
-                <br />
-                <br />
+                <Trial />
 
             </Container>
         )
