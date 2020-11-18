@@ -100,8 +100,6 @@ code {
   display: flex;
   justify-content: space-evenly;
 }
-.trial-img {
-}
 .trial-div {
   margin: auto 0;
 }
@@ -115,6 +113,11 @@ code {
 }
 .trial-btn:hover {
   text-decoration: none;
+}
+.card-img {
+  height: 60%;
+  width: 60%;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 600px) {
