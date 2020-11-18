@@ -126,6 +126,25 @@ code {
 .card {
   height: 100%;
 }
+.get-started-card {
+  height: 350px;
+  background-color: blue;
+  color:white;
+}
+.get-started-text {
+  font-size: 300%;
+  padding: 8%;
+}
+.get-started-btn {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 150%;
+  color: black;
+  background-color: white;
+  margin: 0 auto;
+  width: 20%;
+}
 @media only screen and (min-width: 600px) {
   .head-links{display: flex;}
   .login-btn{display: inline-block;}
