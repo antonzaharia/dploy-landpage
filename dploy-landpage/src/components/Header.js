@@ -12,11 +12,11 @@ export default function Header() {
                 <Link to="/how-it-works">How it works</Link>
             </div>
             <div className="header-item">
-                <Link className="login-btn">Login</Link>
-                <Link className="dev-btn">For Developers</Link>
+                <Link to="/" className="login-btn">Login</Link>
+                <Link  to="/" className="dev-btn">For Developers</Link>
             </div>
             <div>
-                <Link className="menu-btn">Menu</Link>
+                <Link  to="/" className="menu-btn">Menu</Link>
             </div>
         </>
     )

@@ -8,12 +8,12 @@ export default function Deploy() {
         <div className="trial">
         <div className="trial-div">
           <p className="trial-text">Depoly to your domained, secured cloud</p>
-          <a href="#" className="trial-btn">
+          <a href="http://localhost:3000/" className="trial-btn">
             See How it works &nbsp;
             <FontAwesomeIcon icon={faArrowRight} />
           </a>
         </div>
-        <img src={pic2}/>
+        <img src={pic2} alt=""/>
       </div>
     )
 }

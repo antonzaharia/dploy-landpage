@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Trial from '../components/Trial'
 import Head from '../components/Head'
 import Deploy from '../components/Deploy'
+import Whyus from '../components/Whyus'
 
 export default class Home extends Component {
     render() {
@@ -17,6 +18,9 @@ export default class Home extends Component {
                 <Trial />
                 <hr />
                 <Deploy />
+                <hr />
+                <Whyus />
+                <hr />
             </Container>
         )
     }
