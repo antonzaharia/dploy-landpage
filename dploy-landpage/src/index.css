@@ -110,6 +110,7 @@ code {
 .trial-btn {
   color: blue;
   font-weight: bolder;
+  font-size: 150%;
 }
 .trial-btn:hover {
   text-decoration: none;
@@ -119,7 +120,12 @@ code {
   width: 60%;
   margin: 0 auto;
 }
-
+.card-container {
+  text-align: center;
+}
+.card {
+  height: 100%;
+}
 @media only screen and (min-width: 600px) {
   .head-links{display: flex;}
   .login-btn{display: inline-block;}

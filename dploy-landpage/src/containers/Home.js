@@ -14,11 +14,8 @@ export default class Home extends Component {
                   <Header class="header"/>
                 </Row>
                 <Head />
-                <hr />
-                <Trial />
-                <hr />
+                <Trial /><br/>
                 <Deploy />
-                <hr />
                 <Whyus />
                 <hr />
             </Container>

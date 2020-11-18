@@ -10,19 +10,19 @@ const cards = [
     title: "Secured",
     img: secured,
     info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     title: "Cheap",
     img: cheap,
     info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
   {
     title: "Simple",
     img: simple,
     info:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ];
 
@@ -33,8 +33,10 @@ export default function Whyus() {
     ));
   };
   return (
-    <Container>
+    <Container className="card-container">
+        <h2>WHY US</h2><br/><br/><br/><br/>
       <CardGroup>{renderCards()}</CardGroup>
+      <br/><br/><br/><br/>
     </Container>
   );
 }
