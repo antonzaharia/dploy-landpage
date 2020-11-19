@@ -145,6 +145,29 @@ code {
   margin: 0 auto;
   width: 20%;
 }
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.footer-bottom {
+  text-align: center;
+}
+.list {
+  width: 30%;
+  display: inline-block;
+}
+.list > div {
+  background-color: black;
+}
+.footer-link {
+  color: white;
+}
+.footer-link:hover {
+  text-decoration: none;
+  color: lightgray;
+}
 @media only screen and (min-width: 600px) {
   .head-links{display: flex;}
   .login-btn{display: inline-block;}
