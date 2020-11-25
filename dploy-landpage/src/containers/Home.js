@@ -6,7 +6,7 @@ import Head from '../components/Head'
 import Deploy from '../components/Deploy'
 import Whyus from '../components/Whyus'
 import Connect from '../components/Connect'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 
 export default class Home extends Component {
     render() {
@@ -21,7 +21,7 @@ export default class Home extends Component {
                 <Whyus />
                 <hr />
                 <Connect />
-                {/* <Footer /> */}
+                <Footer />
             </Container>
         )
     }

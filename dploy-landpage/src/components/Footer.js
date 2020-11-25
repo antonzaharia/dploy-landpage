@@ -26,9 +26,9 @@ export default function Footer() {
           </ListGroup>
           <ListGroup className="list-icons">
               <ListGroup.Item>
-              <FontAwesomeIcon icon={faFacebookF} />
-              <FontAwesomeIcon icon={faTwitter} />
-              <FontAwesomeIcon icon={faLinkedin} />
+              <Link to="/"><FontAwesomeIcon icon={faFacebookF} /></Link>
+              <Link to="/"><FontAwesomeIcon icon={faTwitter} /></Link>
+              <Link to="/"><FontAwesomeIcon icon={faLinkedin} /></Link>
               </ListGroup.Item>
           </ListGroup>
           <br /><br /><br /><br />

@@ -162,6 +162,8 @@ code {
 .list-icons{
   width: 5%;
   display: inline-block;
+  float: right;
+  font-size: 20px;
 }
 .list-icons > div {background-color: black;}
 .list > div {
