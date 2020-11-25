@@ -176,6 +176,22 @@ code {
   text-decoration: none;
   color: lightgray;
 }
+.deploy-your-business {
+  height: 216px;
+  width: 60%;
+  color: #FFFFFF;
+  font-size: 72px;
+  font-weight: bold;
+  padding-left: 18%;
+  padding-top: 20%;
+}
+.getting-into-cloud-h {
+  opacity: 0.6;
+  color: #FFFFFF;
+  padding-left: 18%;
+  padding-top: 18%;
+  font-size: 140%;
+}
 @media only screen and (min-width: 600px) {
   .head-links{display: flex;}
   .login-btn{display: inline-block;}
