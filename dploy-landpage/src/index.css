@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Syne:wght@717;738&display=swap');
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -18,7 +21,7 @@ code {
 }
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-family: Silka;
 }
 .header-item {
@@ -27,43 +30,50 @@ code {
   padding: 20px;
 }
 .logo {
-  padding: 0px;
+  padding: 20px;
 }
 .head-links {
-  display: none;
+  display: flex;
   justify-content: space-evenly;
 }
 .head-links a {
   padding-top: 20px;
   color: black;
   line-height: 19px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #181818;
 }
 .head-links a:hover {
   text-decoration: none;
 }
 .login-btn {
-  display:none;
+  display: inline-block;
   color: blue;
   padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .login-btn:hover {
   text-decoration: none;
   color:blue;
 }
 .dev-btn {
-  display:none;
+  display: inline-block;
   color: blue; 
-  border: 1px solid lightskyblue;
+  border: 1px solid #B4C1F9;
   padding: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .dev-btn:hover {
   text-decoration: none;
   color:blue;
 }
 .menu-btn {
-  display: inline-block;
+  display: none;
   color: blue; 
   border: 1px solid lightskyblue;
   margin-top: 10px;
@@ -80,13 +90,13 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-size: 100% 100%;
-  height: 200px;
+  height: 840px;
   position: relative;
 }
 .discover-btn {
   color: white;
   background-color: blue;
-  font-size: 250%;
+  font-size: 32px;
   border: none;
   position: absolute;
   bottom: 0;
@@ -94,6 +104,8 @@ code {
   padding-left: 65px;
   padding-right: 65px;
   right: 8%;
+  font-family: 'Syne', sans-serif;
+  font-weight: lighter;
 }
 .trial {
   margin: 10%;
@@ -192,10 +204,10 @@ code {
   padding-top: 18%;
   font-size: 140%;
 }
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .head-links{display: flex;}
   .login-btn{display: inline-block;}
   .dev-btn{display: inline-block;}
   .menu-btn{display: none;}
   .head {height: 840px;}
-}
+} */
