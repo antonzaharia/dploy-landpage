@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import arrow from '../images/arrow.png'
 
 export default function Head() {
   return (
@@ -20,7 +19,7 @@ export default function Head() {
 
       <button className="discover-btn">
         Discover &nbsp;
-        <FontAwesomeIcon icon={faArrowRight} />
+        <img src={arrow} alt="arrow" className="arrow"/>
       </button>
     </div>
   );
