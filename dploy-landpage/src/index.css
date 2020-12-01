@@ -18,6 +18,7 @@ code {
 .main {
   padding: 0px;
   margin: 0px;
+  width: 100%;
 }
 .header {
   display: flex;
@@ -63,8 +64,8 @@ code {
   color: blue; 
   border: 1px solid #B4C1F9;
   padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -204,6 +205,19 @@ code {
   padding-top: 18%;
   font-size: 140%;
 }
+.bitmap {
+  height: 42px;
+  opacity: 0.8;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-bottom: 250px;
+}
+.bitmap img {
+  padding: 10px;
+  padding-left: 30px;
+  width: 180px;
+}
+
 /* @media only screen and (min-width: 600px) {
   .head-links{display: flex;}
   .login-btn{display: inline-block;}

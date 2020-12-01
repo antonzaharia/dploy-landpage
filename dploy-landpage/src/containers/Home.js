@@ -7,6 +7,7 @@ import Deploy from '../components/Deploy'
 import Whyus from '../components/Whyus'
 import Connect from '../components/Connect'
 import Footer from '../components/Footer'
+import Bitmap from '../components/Bitmap'
 
 export default class Home extends Component {
     render() {
@@ -16,10 +17,10 @@ export default class Home extends Component {
                   <Header class="header"/>
                 </Row>
                 <Head />
-                <Trial /><hr/>
+                <Bitmap />
+                <Trial />
                 <Deploy />
                 <Whyus />
-                <hr />
                 <Connect />
                 <Footer />
             </Container>
