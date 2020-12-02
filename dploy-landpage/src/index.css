@@ -17,9 +17,11 @@ code {
     monospace;
 }
 .main {
-  padding: 0px;
-  margin: 0px;
   width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 .header {
   display: flex;
@@ -84,10 +86,7 @@ code {
   padding-left: 15px;
   padding-right: 15px;
 }
-.menu-btn:hover {
-  text-decoration: none;
-  color:blue;
-}
+
 .head {
   background-image: url('images/image-hero.jpg');
   background-repeat: no-repeat;
@@ -211,9 +210,33 @@ code {
   width: 5%;
   display: inline-block;
   float: right;
-  font-size: 20px;
+  font-size: 25px;
+  margin-right: 0px;
+}
+.list-icon-dir {
+  display: flex;
+  margin-top: 70px;
 }
 .list-icons a {
+  color: #BDBFC9;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+.arrow-down{
+  width: 15px;
+  height: 15px;
+  filter:invert(100%);
+}
+.english {
+  float: right;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  color: #BDBFC9;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+.english:hover {
+  text-decoration: none;
   color: lightgray;
 }
 .list-icons > div {background-color: black;}
@@ -270,9 +293,6 @@ code {
 .work-div {
   background-color: #F3F3F6;
   height: 881px;
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
 }
 .work-title {
   position: relative;

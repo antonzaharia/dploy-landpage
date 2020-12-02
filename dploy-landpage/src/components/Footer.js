@@ -2,7 +2,8 @@ import React from "react";
 import { Container, ListGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faFacebook, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import arrowdown from '../images/arrow-down.svg'
 
 export default function Footer() {
   return (
@@ -24,9 +25,10 @@ export default function Footer() {
             <ListGroup.Item><Link className="footer-link" to="/">Login</Link></ListGroup.Item>
             <ListGroup.Item><Link className="footer-link" to="/">For Developers</Link></ListGroup.Item>
           </ListGroup>
+          <Link to="/" className="english">English <img src={arrowdown} alt="arrow" className="arrow-down"/></Link>
           <ListGroup className="list-icons">
-              <ListGroup.Item>
-              <Link to="/"><FontAwesomeIcon icon={faFacebookF} /></Link>
+              <ListGroup.Item className="list-icon-dir">
+              <Link to="/"><FontAwesomeIcon icon={faFacebook} /></Link>
               <Link to="/"><FontAwesomeIcon icon={faTwitter} /></Link>
               <Link to="/"><FontAwesomeIcon icon={faLinkedin} /></Link>
               </ListGroup.Item>
