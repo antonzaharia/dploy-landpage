@@ -1,17 +1,16 @@
 import React from "react";
 import { Card }from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import arrow from '../images/arrow-blue.png'
 
 export default function InfoCard({ title, info, img }) {
   return (
-    <Card bg="light" style={{ width: "30%"}} className="card">
+    <Card style={{ width: "30%"}} className={title === "Cheap" ? "card card-low" : "card"}>
       <Card.Body>
         <Card.Img variant="top" src={img} alt={title} className="card-img"/>
-        <Card.Title><h2>{title}</h2></Card.Title>
+        <Card.Title><h2 className="card-title">{title}</h2></Card.Title>
         <Card.Text>{info}</Card.Text>
-        <Link to="/" className="trial-btn">Learn more <FontAwesomeIcon icon={faArrowRight} /></Link>
+        <Link to="/" className="trial-btn">Learn more <img src={arrow} alt="small" className="arrow-blue small"/></Link>
       </Card.Body>
     </Card>
   );

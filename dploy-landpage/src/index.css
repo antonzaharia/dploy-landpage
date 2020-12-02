@@ -136,16 +136,34 @@ code {
 .trial-btn:hover {
   text-decoration: none;
 }
+.whyus-title {
+  font-size: 25px;
+  font-weight: 600;
+}
 .card-img {
-  height: 60%;
-  width: 60%;
+  height: 40%;
+  width: 40%;
   margin: 0 auto;
+  margin-bottom: 50px
 }
 .card-container {
+  margin-top: 160px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.card-title{
+  font-size: 30px;
+  font-weight: bolder; 
+  text-shadow: 1.5px 0 black;
+  letter-spacing: 2px;
 }
 .card {
   height: 100%;
+  border: none;
+}
+.card-low {
+  margin-top: 50px;
 }
 .get-started-card {
   height: 350px;
@@ -263,6 +281,10 @@ code {
   width: 30px;
   margin-left: 5px;
   margin-bottom: 8px;
+}
+.small {
+  width: 25px;
+  margin-bottom: 6px;
 }
 .square {
   position: absolute;
