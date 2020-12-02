@@ -237,6 +237,24 @@ code {
   max-width: 150px;
   height: 60px;
 }
+.no-margin {
+  margin-bottom: 0px;
+}
+.work-div {
+  background-color: #F3F3F6;
+  height: 881px;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.work-title {
+  position: relative;
+  left: 165px;
+  top: -48px;
+  font-size: 50px;
+  font-family: 'Syne', sans-serif;
+  font-weight: bold;
+}
 .arrow {
   width: 50px;
   margin-bottom: 15px;
@@ -279,6 +297,14 @@ code {
   position: absolute;
   top: 1688px; 
   left: 653px;
+}
+.square-work {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  left: 0;
+  top: 0;
+  background-color: white;
 }
 
 /* @media only screen and (min-width: 600px) {

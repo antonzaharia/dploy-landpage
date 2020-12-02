@@ -8,6 +8,7 @@ import Whyus from '../components/Whyus'
 import Connect from '../components/Connect'
 import Footer from '../components/Footer'
 import Bitmap from '../components/Bitmap'
+import Work from '../components/Work'
 
 export default class Home extends Component {
     render() {
@@ -20,6 +21,7 @@ export default class Home extends Component {
                 <Bitmap />
                 <Trial />
                 <Deploy />
+                <Work />
                 <Whyus />
                 <Connect />
                 <Footer />
