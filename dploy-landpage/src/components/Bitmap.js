@@ -9,7 +9,7 @@ export default function Bitmap() {
         <div className="bitmap">
             <img src={img4} alt="rocket-logo"/>
             <img src={img2} alt="mautic-logo"/>
-            <img src={img3} alt="owncloud-logo"/>
+            <img src={img3} className="owncloud" alt="owncloud-logo"/>
             <img src={img1} alt="doox-logo"/>
         </div>
     )

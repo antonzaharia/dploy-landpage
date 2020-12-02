@@ -1,7 +1,6 @@
 import React from "react";
 import pic2 from "../images/Screenshot_3.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import arrow from '../images/arrow-blue.png'
 
 export default function Deploy() {
     return (
@@ -10,7 +9,7 @@ export default function Deploy() {
           <p className="trial-text">Depoly to your domained, secured cloud</p>
           <a href="http://localhost:3000/" className="trial-btn">
             See How it works &nbsp;
-            <FontAwesomeIcon icon={faArrowRight} />
+            <img src={arrow} alt="arrow" className="arrow-blue"/>
           </a>
         </div>
         <img src={pic2} alt=""/>
