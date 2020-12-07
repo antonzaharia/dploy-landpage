@@ -10,7 +10,7 @@ export default function Head() {
       <div className="square square-head-white"></div>
       <div>
         <h1 className="deploy-your-business">
-          Deploy your business&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in 60 seconds
+          Deploy your business&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in 60 seconds
         </h1>
         <p className="getting-into-cloud-h">
           Getting into cloud has never been easier
