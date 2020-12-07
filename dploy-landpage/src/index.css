@@ -30,14 +30,11 @@ code {
 }
 .header-item {
   width: 33%;
-  text-align: center;
   padding: 20px;
 }
 .logo {
   padding: 20px;
-}
-.logo-img {
-  margin-right: 130px;
+  padding-left: 50px;
 }
 .head-links {
   display: flex;
@@ -60,6 +57,7 @@ code {
   padding: 10px;
   font-size: 16px;
   font-weight: bold;
+  padding-left: 200px;
   padding-right: 30px;
 }
 .login-btn:hover {
@@ -94,10 +92,8 @@ code {
   background-image: url('images/image-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-size: 100% 100%;
   height: 750px;
   position: relative;
-  width: 90%;
   margin: 0 auto;
 }
 .discover-btn {
@@ -172,6 +168,7 @@ code {
   background-color: blue;
   color:white;
   border-radius: 0;
+  width: 100%;
 }
 .get-started-text {
   font-family: 'Syne', sans-serif;
@@ -255,31 +252,31 @@ code {
 }
 .deploy-your-business {
   height: 216px;
-  width: 55%;
+  width: 600px;
   color: #FFFFFF;
   font-size: 70px;
   font-weight: bold;
-  padding-left: 10%;
-  padding-top: 18%;
   font-family: 'Syne', sans-serif;
-  top: 0px; left: 0px;
+  top: 250px; left: 150px;
   position: relative;
   z-index: 10;
 }
 .getting-into-cloud-h {
   opacity: 0.6;
   color: #FFFFFF;
-  padding-left: 10%;
-  padding-top: 18%;
+  top: 250px; left: 150px;
+  position: relative;
+  padding-top: 50px;
   font-size: 160%;
   font-family: 'Poppins', sans-serif;
 }
 .bitmap {
   height: 42px;
   opacity: 0.8;
-  margin-left: 25%;
   margin-top: 50px;
   margin-bottom: 250px;
+  display: flex;
+  justify-content: center;
 }
 .bitmap img {
   padding: 10px;
@@ -348,9 +345,9 @@ code {
   width: 70px;
   height: 70px;
   background-color: #E9E9E9;
-  position: absolute;
-  top: 1688px; 
-  left: 42.6%;
+  position: relative;
+  top: 510px; 
+  right: 120px;
 }
 .square-work {
   position: relative;
@@ -362,6 +359,7 @@ code {
 }
 .ready-div {
   position:relative;
+  width: 100%;
 }
 .square-ready {
   background-color: black;

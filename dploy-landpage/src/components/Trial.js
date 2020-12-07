@@ -6,6 +6,7 @@ export default function Trial() {
   return (
     <div className="trial">
       <img alt="" src={pic1}/>
+      <div className="square square-trial"></div>
       <div className="trial-div">
         <p className="trial-text">Choose what apps you need and set up a free trial</p>
         <a href="/" className="trial-btn">
@@ -13,7 +14,7 @@ export default function Trial() {
           <img src={arrow} alt="arrow" className="arrow-blue"/>
         </a>
       </div>
-      <div className="square square-trial"></div>
+      
     </div>
   );
 }
